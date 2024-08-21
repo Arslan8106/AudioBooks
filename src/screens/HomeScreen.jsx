@@ -3,7 +3,8 @@ const HomeScreen = () => {
         <div className="absolute h-screen bg-cover w-screen bg-center mt-40"
              style={{backgroundImage: "url('../../public/images/Vector1.png')"}}>
             <div className="absolute inset-1 flex justify-center items-center">
-                <div className="w-screen h-4/5 sm:h-4/5 bg-gradient-to-b from-transparent via-[#828CFF] to-transparent opacity-40"></div>
+                <div
+                    className="w-screen h-4/5 sm:h-4/5 bg-gradient-to-b from-transparent via-[#828CFF] to-transparent opacity-40"></div>
             </div>
             <div className="flex justify-center -mt-20 pb-28">
                 <div className="flex flex-col items-center justify-center">
@@ -33,9 +34,23 @@ const HomeScreen = () => {
                         <img className="h-auto max-w-full" src="../../public/images/houseMaid.png"
                              alt="image description"/>
                     </div>
-                    <img className="h-auto max-w-full border-8 rounded-3xl border-[#875FF6] ml-8 mr-4"
-                         src="../../public/images/AudioBook.png"
-                         alt="image description"/>
+                    <div
+                        className="relative inline-block ml-8 mr-4 p-3 rounded-3xl"
+                        style={{
+                            background: 'linear-gradient(180deg, #875FF6 0%, #07030C 100%)',
+                            borderRadius: '1rem',
+                        }}
+                    >
+                        <img
+                            className="h-auto max-w-full rounded-[50px]"
+                            src="../../public/images/AudioBook.png"
+                            alt="Description"
+                            style={{
+                                borderRadius: 'inherit',
+                            }}
+                        />
+                        <div className="absolute bottom-0 left-0 w-full" style={{backgroundColor: '#07030C',}}></div>
+                    </div>
                     <div className="flex flex-col items-center justify-center pl-4 pr-4">
                         <img className="h-auto max-w-full pb-4" src="../../public/images/mist.png"
                              alt="image description"/>
