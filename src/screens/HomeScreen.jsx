@@ -18,7 +18,7 @@ const HomeScreen = () => {
                        className="text-[16px] font-normal text-[#5D5D5D] pb-2">New to UPLIT? Get a free title on us.</p>
                     <button type="button"
                             style={{fontFamily: 'Outfit, sans-serif'}}
-                            className="focus:outline-none sm:w-[200px] w-[385px] h-[52px] text-[#232323]-400 bg-[#FFAF19] hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900">Try
+                            className="focus:outline-none lg:w-[385px] w-[300px] h-[52px] text-[#232323]-400 bg-[#FFAF19] hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900">Try
                         for 0.01$
                     </button>
                     <p style={{fontFamily: 'Outfit, sans-serif'}}
@@ -66,15 +66,15 @@ const HomeScreen = () => {
 
             <div className="flex flex-col items-center justify-center mt-28 pb-10">
                 <p style={{fontFamily: 'Outfit, sans-serif'}}
-                   className="text-[30px] font-bold text-[#454545] pb-20 w-[73%] text-center">Explore what’s trending
+                   className="text-[30px] font-bold text-[#454545] pb-20 lg:w-[73%] text-center">Explore what’s trending
                     with millions of listeners, powered by AI recommendations tailored just for you</p>
                 <div className="flex flex-col md:flex-row items-center justify-center">
-                    <img className="h-auto max-w-full mb-4 md:mb-0 md:mr-4" src="../../public/images/navola.png"
+                    <img className="h-auto w-3/4 md:w-[90%] mb-4 md:mb-0 md:mr-4" src="../../public/images/navola.png"
                          alt="image description"/>
                     <img className="h-auto w-3/4 md:w-[90%] mb-4 md:mb-0 md:mr-4 opacity-75"
                          src="../../public/images/unbound.png"
                          alt="image description"/>
-                    <img className="h-auto max-w-full mb-4 md:mb-0" src="../../public/images/jasmine.png"
+                    <img className="h-auto w-3/4 md:w-[90%] mb-4 md:mb-0 md:mr-4" src="../../public/images/jasmine.png"
                          alt="image description"/>
                 </div>
 
